@@ -1,11 +1,7 @@
 // nuxt.config.ts
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  
-  // Correct CSS path
-  css: ['@/assets/css/main.css'],
-
-
+  css: ['~/assets/css/main.css'], // use lowercase 'css' folder
   routeRules: {
     '/': { prerender: true },
     '/about': { prerender: true },
@@ -13,7 +9,6 @@ export default defineNuxtConfig({
     '/projects': { prerender: true },
     '/contact': { prerender: true },
   },
-
   app: {
     head: {
       title: "Aravind's Portfolio",
