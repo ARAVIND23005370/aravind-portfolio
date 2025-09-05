@@ -1,6 +1,10 @@
+// nuxt.config.ts
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  css: ['~/assets/css/main.css'], // Use ~ for assets
+  
+  // Correct CSS path
+  css: ['@/assets/css/main.css'],
+
   routeRules: {
     '/': { prerender: true },
     '/about': { prerender: true },
@@ -8,6 +12,7 @@ export default defineNuxtConfig({
     '/projects': { prerender: true },
     '/contact': { prerender: true },
   },
+
   app: {
     head: {
       title: "Aravind's Portfolio",
