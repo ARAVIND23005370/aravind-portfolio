@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   // Correct CSS path
   css: ['@/assets/css/main.css'],
 
+
   routeRules: {
     '/': { prerender: true },
     '/about': { prerender: true },
