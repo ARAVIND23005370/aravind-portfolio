@@ -1,7 +1,6 @@
-// nuxt.config.ts
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  css: ['~/assets/css/main.css'], // use lowercase 'css' folder
+  css: ['~/assets/css/main.css'], // lowercase path
   routeRules: {
     '/': { prerender: true },
     '/about': { prerender: true },
