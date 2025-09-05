@@ -1,7 +1,6 @@
-// nuxt.config.ts
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  css: ['~/assets/css/main.css'],  // Use ~ for Nuxt asset paths
+  css: ['~/assets/css/main.css'], // Use ~ for assets
   routeRules: {
     '/': { prerender: true },
     '/about': { prerender: true },
