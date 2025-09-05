@@ -1,7 +1,7 @@
 // nuxt.config.ts
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  css: ['@/assets/css/main.css'],
+  css: ['~/assets/css/main.css'],  // Use ~ for Nuxt asset paths
   routeRules: {
     '/': { prerender: true },
     '/about': { prerender: true },
@@ -13,11 +13,14 @@ export default defineNuxtConfig({
     head: {
       title: "Aravind's Portfolio",
       meta: [
-        { name: 'description', content: "Aravind's RPortfolio Website" },
+        { name: 'description', content: "Aravind's Portfolio Website" },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       ],
       link: [
-        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@600&display=swap' }
+        {
+          rel: 'stylesheet',
+          href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@600&display=swap'
+        }
       ]
     }
   }
