@@ -1,6 +1,5 @@
 <template>
   <div class="app-container">
-    <!-- Navbar -->
     <nav class="navbar">
       <div class="nav-logo">Aravind R</div>
       <div class="nav-links">
@@ -13,7 +12,6 @@
       </div>
     </nav>
 
-    <!-- Sprinkles background -->
     <div class="sprinkles">
       <div
         v-for="n in 50"
@@ -30,28 +28,24 @@
       ></div>
     </div>
 
-    <!-- Home Section -->
-<section id="home" class="section home-section">
-  <div class="home-content">
-    <h1>Welcome to My Portfolio</h1>
-    <p>
-      I am Aravind R, an aspiring AI & Data Science student passionate
-      about building interactive web apps. Focused on Software Development, Data Analytics, and AI solutions.
-    </p>
-    <!-- Resume Card -->
-    <div class="skills-list vertical">
-      <a href="/resume/Aravind_Resume.pdf" download class="skill">
-        📄 Resume
-      </a>
-  
-    </div>
-  </div>
-  <div class="home-image">
-    <img :src="myImage" alt="Aravind R" class="profile-image" />
-  </div>
-</section>
+    <section id="home" class="section home-section">
+      <div class="home-content">
+        <h1>Welcome to My Portfolio</h1>
+        <p>
+          I am Aravind R, an aspiring AI & Data Science student passionate
+          about building interactive web apps. Focused on Software Development, Data Analytics, and AI solutions.
+        </p>
+        <div class="skills-list vertical">
+          <a href="/resume/Aravind_Resume.pdf" download class="skill">
+            📄 Resume
+          </a>
+        </div>
+      </div>
+      <div class="home-image">
+        <img :src="myImage" alt="Aravind R" class="profile-image" />
+      </div>
+    </section>
 
-    <!-- About Section -->
     <section id="about" class="section about-section">
       <h2>About Me</h2>
       <p>
@@ -70,7 +64,6 @@
       </p>
     </section>
 
-    <!-- Skills Section -->
     <section id="skills" class="section skills-section">
       <h2>Skills</h2>
 
@@ -111,7 +104,6 @@
       </div>
     </section>
 
-    <!-- Projects Section -->
     <section id="projects" class="section projects-section">
       <h2>Projects</h2>
       <div class="projects-list vertical">
@@ -146,32 +138,33 @@
       </div>
     </section>
 
-    <!-- Certificates Section -->
-<section id="certificates" class="section certificates-section">
-  <h2>Certificates</h2>
-  <div class="certificates-list vertical">
-    <a href="/certificates/MS_AI_Learning.pdf" download class="certificate-card">
-      🏆 <strong>AINNOVATION 2025: Microsoft AI Learning Challenge</strong> - August 31, 2025
-    </a>
-    <a href="/certificates/Applied_AI_Learning.pdf" download class="certificate-card">
-      🏆 <strong>AINNOVATION 2025: Applied AI Learning Challenge</strong> - September 1, 2025
-    </a>
-    <a href="/certificates/MS_Azure_Learning.pdf" download class="certificate-card">
-      🏆 <strong>AINNOVATION 2025: Microsoft Azure Learning Challenge</strong> - August 31, 2025
-    </a>
-    <a href="/certificates/PyTorch_Ultimate.pdf" download class="certificate-card">
-      🏆 <strong>PyTorch Ultimate 2024 Specialization</strong> - May 12, 2025
-    </a>
-    <a href="/certificates/Java_Beginners_IBM.pdf" download class="certificate-card">
-      🏆 <strong>Java Programming for Beginners (IBM Coursera)</strong> - Aug 15, 2025
-    </a>
-    <a href="/certificates/Software_Engineering_IBM.pdf" download class="certificate-card">
-      🏆 <strong>Introduction to Software Engineering (IBM Coursera)</strong> - Aug 14, 2025
-    </a>
-  </div>
-</section>
+    <section id="certificates" class="section certificates-section">
+      <h2>Certificates</h2>
+      <div class="certificates-list vertical">
+        <a href="/certificates/Oracle_SQL.pdf" download class="certificate-card">
+          🏆 <strong>Oracle Database SQL Certified Specialist</strong> - November 21, 2025
+        </a>
+        <a href="/certificates/MS_AI_Learning.pdf" download class="certificate-card">
+          🏆 <strong>AINNOVATION 2025: Microsoft AI Learning Challenge</strong> - August 31, 2025
+        </a>
+        <a href="/certificates/Applied_AI_Learning.pdf" download class="certificate-card">
+          🏆 <strong>AINNOVATION 2025: Applied AI Learning Challenge</strong> - September 1, 2025
+        </a>
+        <a href="/certificates/MS_Azure_Learning.pdf" download class="certificate-card">
+          🏆 <strong>AINNOVATION 2025: Microsoft Azure Learning Challenge</strong> - August 31, 2025
+        </a>
+        <a href="/certificates/PyTorch_Ultimate.pdf" download class="certificate-card">
+          🏆 <strong>PyTorch Ultimate 2024 Specialization</strong> - May 12, 2025
+        </a>
+        <a href="/certificates/Java_Beginners_IBM.pdf" download class="certificate-card">
+          🏆 <strong>Java Programming for Beginners (IBM Coursera)</strong> - Aug 15, 2025
+        </a>
+        <a href="/certificates/Software_Engineering_IBM.pdf" download class="certificate-card">
+          🏆 <strong>Introduction to Software Engineering (IBM Coursera)</strong> - Aug 14, 2025
+        </a>
+      </div>
+    </section>
 
-    <!-- Contact Section -->
     <section id="contact" class="section contact-section">
       <h2>Contact</h2>
       <p>Email: aravindgd45@gmail.com</p>
@@ -185,7 +178,6 @@
       </div>
     </section>
 
-    <!-- Footer -->
     <footer class="footer">
       &copy; 2025 Aravind R. All Rights Reserved.
     </footer>
@@ -200,7 +192,6 @@ function randomColor() {
   return colors[Math.floor(Math.random() * colors.length)];
 }
 </script>
-
 
 <style scoped>
 /* App Container */
