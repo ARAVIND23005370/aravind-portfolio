@@ -32,9 +32,9 @@
       <div class="home-content">
         <h1>Welcome to My Portfolio</h1>
         <p>
-          I am Aravind R, an aspiring AI & Data Science student passionate
-          about building interactive web apps. Focused on Software Development, Data Analytics, and AI solutions.
-        </p>
+  I am Aravind R, an Oracle Certified Developer and AI & Data Science student specializing in 
+  building interactive web applications. My focus is on Software Development, Data Analytics, and AI solutions.
+</p>
         <div class="skills-list vertical">
           <a href="/resume/Aravind_Resume.pdf" download class="skill">
             📄 Resume
@@ -49,18 +49,18 @@
     <section id="about" class="section about-section">
       <h2>About Me</h2>
       <p>
-        A focused and goal-oriented engineering professional targeting entry-level assignments
-        in Software Development and Testing. Proficient in Python, Java, SQL, HTML, CSS, JavaScript,
-        Power BI, and Hadoop.
+        I am an Oracle Certified Database SQL Specialist and a goal-oriented engineering professional targeting 
+        entry-level opportunities in Software Development and Testing. I am proficient in Python, Java, SQL, 
+        HTML, CSS, JavaScript, Power BI, and Hadoop.
       </p>
       <p>
-        Strong understanding of the Software Development Lifecycle (SDLC) from Requirement Analysis,
-        Documentation, Coding, Testing, and Maintenance. Skilled in problem-solving, analytical thinking,
-        and delivering practical solutions.
+        I possess a strong understanding of the Software Development Lifecycle (SDLC), from Requirement Analysis 
+        and Documentation to Coding, Testing, and Maintenance. I am skilled in problem-solving, analytical 
+        thinking, and delivering practical technical solutions.
       </p>
       <p>
-        Strong communication, coordination, and networking capabilities. Passionate about
-        learning, experimenting, and delivering real-world projects.
+        With strong communication, coordination, and networking capabilities, I am passionate about learning 
+        new technologies, experimenting with innovative ideas, and delivering successful real-world projects.
       </p>
     </section>
 
