@@ -32,9 +32,11 @@
       <div class="home-content">
         <h1>Welcome to My Portfolio</h1>
         <p>
-  I am Aravind R, an Oracle Certified Developer and AI & Data Science student specializing in 
-  building interactive web applications. My focus is on Software Development, Data Analytics, and AI solutions.
+  I am Aravind R, a pre-final year B.Tech student in Artificial Intelligence & Data Science with a strong focus on
+  Java backend development. I build scalable, rule-driven systems using Spring Boot, REST APIs, and SQL,
+  with an emphasis on automation, clean architecture, and audit-ready design.
 </p>
+
         <div class="skills-list vertical">
           <a href="/resume/Aravind_Resume.pdf" download class="skill">
             📄 Resume
@@ -49,19 +51,22 @@
     <section id="about" class="section about-section">
       <h2>About Me</h2>
       <p>
-        I am an Oracle Certified Database SQL Specialist and a goal-oriented engineering professional targeting 
-        entry-level opportunities in Software Development and Testing. I am proficient in Python, Java, SQL, 
-        HTML, CSS, JavaScript, Power BI, and Hadoop.
-      </p>
-      <p>
-        I possess a strong understanding of the Software Development Lifecycle (SDLC), from Requirement Analysis 
-        and Documentation to Coding, Testing, and Maintenance. I am skilled in problem-solving, analytical 
-        thinking, and delivering practical technical solutions.
-      </p>
-      <p>
-        With strong communication, coordination, and networking capabilities, I am passionate about learning 
-        new technologies, experimenting with innovative ideas, and delivering successful real-world projects.
-      </p>
+  I am a pre-final year Artificial Intelligence & Data Science student at Saveetha Engineering College,
+  Chennai, with a strong inclination toward backend engineering and system design.
+</p>
+
+<p>
+  My primary expertise lies in Java backend development using Spring Boot, REST APIs, JPA, and SQL databases.
+  I have hands-on experience designing rule-based decision systems, document processing pipelines,
+  and modular backend architectures focused on scalability and maintainability.
+</p>
+
+<p>
+  I possess solid fundamentals in Object-Oriented Programming, Data Structures, DBMS, and Operating Systems.
+  I enjoy building clarity-first solutions, solving backend problems, and working on industry-aligned projects
+  involving automation, decision logic, and server-side programming.
+</p>
+
     </section>
 
     <section id="skills" class="section skills-section">
@@ -70,17 +75,22 @@
       <div class="skills-group">
         <h3>Technical Skills</h3>
         <div class="skills-list vertical">
-          <div class="skill">💻 C Programming</div>
-          <div class="skill">🐍 Python</div>
           <div class="skill">☕ Java</div>
-          <div class="skill">🌐 HTML/CSS</div>
-          <div class="skill">📜 JavaScript</div>
-          <div class="skill">🗄 SQL</div>
-          <div class="skill">📊 Power BI</div>
-          <div class="skill">🐘 Hadoop</div>
-          <div class="skill">🗂 DSA</div>
-          <div class="skill">🐳 Docker</div>
-          <div class="skill">⚛️ React</div>
+<div class="skill">🐍 Python</div>
+<div class="skill">💻 C Programming</div>
+<div class="skill">🌱 Spring Boot</div>
+<div class="skill">🔗 REST APIs</div>
+<div class="skill">🗄 MySQL</div>
+<div class="skill">🗄 Oracle SQL</div>
+<div class="skill">🗄 H2 Database</div>
+<div class="skill">📦 JPA / Hibernate</div>
+<div class="skill">🧠 OOP Concepts</div>
+<div class="skill">🧩 DSA (Basics)</div>
+<div class="skill">🛠 Git & GitHub</div>
+<div class="skill">📮 Postman</div>
+<div class="skill">⚡ ES6</div>
+<div class="skill">⚛️ React (Familiar)</div>
+
         </div>
       </div>
 
@@ -108,32 +118,53 @@
       <h2>Projects</h2>
       <div class="projects-list vertical">
         <div class="project-card">
-          <h3>Sales Dashboard using Power BI</h3>
-          <p>
-            Built an interactive sales dashboard visualizing total sales, regional performance, and product-wise revenue.
-          </p>
-          <p><strong>Skills:</strong> Power BI, DAX, Excel, Data Visualization</p>
+          <h3>Autonomous Policy-Driven Decision Intelligence Platform</h3>
+<p>
+  Designed and developed an advanced decision intelligence platform focused on policy-driven reasoning
+  instead of basic workflow automation.
+</p>
+<p>
+  Implemented explainable decision outcomes with confidence scoring and full decision traceability.
+  Designed rule-evaluation workflows supporting what-if analysis and future policy evolution.
+</p>
+<p><strong>Tech:</strong> Java, System Design, Decision Logic, UML</p>
+
+        <div class="project-card">
+          <h3>End-to-End Document Intelligence & Decision Automation System</h3>
+<p>
+  Backend-driven system for automating document ingestion, OCR-based data extraction,
+  and rule-based decision making.
+</p>
+<p>
+  Built modular services for document management, OCR handling, rule evaluation,
+  and automated decision routing with a domain-agnostic architecture.
+</p>
+<p><strong>Tech:</strong> Spring Boot, Java, REST APIs, MySQL</p>
+
+        <div class="project-card">
+          <h3>AI Resume Analyzer Web Application</h3>
+<p>
+  AI-powered resume parsing and job-matching system using NLP techniques to evaluate
+  candidate–job compatibility.
+</p>
+<p>
+  Improved resume relevance through automated keyword and structure analysis
+  with a tag-based UI.
+</p>
+<p><strong>Tech:</strong> Python, NLP, Streamlit, HTML, CSS, JavaScript</p>
+
         </div>
         <div class="project-card">
-          <h3>AI Resume Analyzer Web App (Streamlit)</h3>
-          <p>
-            Streamlit web application extracting resume details (skills, education, experience) and matching with job descriptions.
-          </p>
-          <p><strong>Skills:</strong> Python, Streamlit, Resume Parsing, Keyword Matching</p>
-        </div>
-        <div class="project-card">
-          <h3>Offline Voice-Controlled Bionic Dog (WAVEGO)</h3>
-          <p>
-            Built a voice-controlled robotic dog using ESP32 and Vosk for offline speech recognition.
-          </p>
-          <p><strong>Skills:</strong> Python, Vosk, ESP32, Servo Motor Control</p>
-        </div>
-        <div class="project-card">
-          <h3>Frontend Interface for Voice-Controlled Robots</h3>
-          <p>
-            Developed stylish frontend using HTML/CSS and Flask for interacting with bionic dogs, with mic button and live transcription.
-          </p>
-          <p><strong>Skills:</strong> Flask, HTML/CSS, JavaScript, Frontend Development</p>
+          <h3>Gen AI Exchange Hackathon – Google Cloud & Hack2Skill</h3>
+<p>
+  Participated in a national-level hackathon focused on Generative AI-based solution design
+  for real-world problem statements.
+</p>
+<p>
+  Gained experience in rapid prototyping, AI ideation, and collaborative development.
+</p>
+<p><strong>Tech:</strong> Generative AI, Problem Solving</p>
+
         </div>
       </div>
     </section>
@@ -162,6 +193,10 @@
         <a href="/certificates/Software_Engineering_IBM.pdf" download class="certificate-card">
           🏆 <strong>Introduction to Software Engineering (IBM Coursera)</strong> - Aug 14, 2025
         </a>
+        <a href="/certificates/JPMorgan_Forage.pdf" download class="certificate-card">
+  🏆 <strong>JPMorgan Chase – Software Engineering Job Simulation (Forage)</strong>
+</a>
+
       </div>
     </section>
 
