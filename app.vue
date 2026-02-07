@@ -173,7 +173,7 @@
       <h2>Certificates</h2>
       <div class="certificates-list vertical">
         <a href="/certificates/Oracle_SQL.pdf" download class="certificate-card">
-          🏆 <strong>Oracle Database SQL Certified Specialist</strong> - November 21, 2025
+          🏆 <strong>Oracle Database SQL Certified Specialist(Global certificate)</strong> - November 21, 2025
         </a>
         <a href="/certificates/MS_AI_Learning.pdf" download class="certificate-card">
           🏆 <strong>AINNOVATION 2025: Microsoft AI Learning Challenge</strong> - August 31, 2025
