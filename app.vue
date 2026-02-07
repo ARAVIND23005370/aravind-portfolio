@@ -128,7 +128,7 @@
   Designed rule-evaluation workflows supporting what-if analysis and future policy evolution.
 </p>
 <p><strong>Tech:</strong> Java, System Design, Decision Logic, UML</p>
-
+</div>
         <div class="project-card">
           <h3>End-to-End Document Intelligence & Decision Automation System</h3>
 <p>
@@ -140,7 +140,7 @@
   and automated decision routing with a domain-agnostic architecture.
 </p>
 <p><strong>Tech:</strong> Spring Boot, Java, REST APIs, MySQL</p>
-
+</div>
         <div class="project-card">
           <h3>AI Resume Analyzer Web Application</h3>
 <p>
@@ -203,6 +203,7 @@
     <section id="contact" class="section contact-section">
       <h2>Contact</h2>
       <p>Email: aravindgd45@gmail.com</p>
+
       <p>Phone: +91-9342423726</p>
       <p>Location: Chennai, India</p>
       <div class="social-links">
