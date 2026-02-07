@@ -1,76 +1,50 @@
 <template>
-  <div class="home-page">
-    <section class="intro">
-      <h1>Welcome to My Portfolio</h1>
-      <p>This is the home page. Explore my work and skills.</p>
+  <div class="app-container">
+    <section id="home">
+      <h1>Aravind R</h1>
+      <p>
+        Pre-final year B.Tech student in Artificial Intelligence & Data Science
+        with a strong focus on Java backend development, Spring Boot, REST APIs,
+        and SQL-based systems.
+      </p>
+
+      <a href="/resume/Aravind_Resume.pdf" download>
+        Download Resume
+      </a>
     </section>
 
-    <section class="highlights">
-      <div class="card">
-        <h2>Projects</h2>
-        <p>Check out my projects section for details.</p>
-        <NuxtLink to="/projects">View Projects</NuxtLink>
-      </div>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I specialize in backend engineering and system design, with hands-on
+        experience in rule-based decision systems, document automation, and
+        modular backend architectures.
+      </p>
+    </section>
 
-      <div class="card">
-        <h2>Skills</h2>
-        <p>See what I am good at in the skills section.</p>
-        <NuxtLink to="/skills">View Skills</NuxtLink>
-      </div>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Java, Spring Boot, REST APIs</li>
+        <li>MySQL, Oracle SQL, H2</li>
+        <li>OOP, DSA (Basics), DBMS</li>
+        <li>Git, GitHub, Postman</li>
+      </ul>
+    </section>
 
-      <div class="card">
-        <h2>Contact</h2>
-        <p>Get in touch with me anytime.</p>
-        <NuxtLink to="/contact">Contact Me</NuxtLink>
-      </div>
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>Autonomous Policy-Driven Decision Intelligence Platform</li>
+        <li>Document Intelligence & Decision Automation System</li>
+        <li>AI Resume Analyzer Web Application</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: aravind.rameshrd@gmail.com</p>
+      <p>Location: Chennai, India</p>
     </section>
   </div>
 </template>
-
-<style scoped>
-.home-page {
-  padding: 2rem;
-  background-color: #f9f9f9;
-  min-height: 80vh;
-}
-.intro h1 {
-  color: #0d6efd;
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-.intro p {
-  color: #555;
-  font-size: 1.2rem;
-}
-.highlights {
-  display: flex;
-  gap: 1rem;
-  margin-top: 2rem;
-  flex-wrap: wrap;
-}
-.card {
-  background-color: white;
-  border-radius: 8px;
-  padding: 1.5rem;
-  flex: 1 1 250px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-}
-.card h2 {
-  color: #0d6efd;
-  margin-bottom: 0.5rem;
-}
-.card p {
-  color: #555;
-  margin-bottom: 1rem;
-}
-.card a {
-  text-decoration: none;
-  color: #0d6efd;
-  font-weight: bold;
-}
-</style>
