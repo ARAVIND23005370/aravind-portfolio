@@ -252,9 +252,26 @@ function randomColor() {
   z-index: 1000;
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
-.nav-logo { font-weight: bold; font-size: 1.8rem; color: #0d6efd; }
-.nav-links a { margin-left: 1.5rem; font-weight: 500; color: #ccc; transition: all 0.3s; }
-.nav-links a:hover { color: #00f0ff; text-decoration: none; text-shadow: 0 0 8px #00f0ff, 0 0 16px #00f0ff; }
+
+.nav-logo {
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: #0d6efd;
+}
+
+.nav-links a {
+  margin-left: 1.5rem;
+  font-weight: 500;
+  color: #ccc;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.nav-links a:hover {
+  color: #00f0ff;
+  text-shadow: 0 0 8px #00f0ff, 0 0 16px #00f0ff;
+}
+
 
 /* Sprinkles */
 .sprinkles { position: fixed; top:0; left:0; width:100%; height:100%; pointer-events:none; overflow:hidden; z-index:0; }
